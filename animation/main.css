@@ -1,0 +1,65 @@
+/**
+ * Do not modifying code in this section.
+ * Start writing your code after this section.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+/*
+ * Start modifying code below
+*/
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(0);
+  }
+
+  35% {
+    transform: translateY(-64px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  65% {
+    transform: translateY(-12px);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
